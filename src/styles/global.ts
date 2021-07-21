@@ -47,6 +47,7 @@ html {
 
 body {
   -webkit-font-smoothing: antialiased;
+  background: var(--very-dark-blue-bg);
 }
 
 body, input, textArea, button {
