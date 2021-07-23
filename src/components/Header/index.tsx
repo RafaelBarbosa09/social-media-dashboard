@@ -9,6 +9,10 @@ export function Header() {
       </div>
       <div className="toggle">
         <span>Dark Mode</span>
+        <label className="switch">
+          <input type="checkbox" />
+          <span className="slider round"></span>
+        </label>
       </div>
     </Container>
   );
