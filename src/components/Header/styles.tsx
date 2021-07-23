@@ -23,10 +23,6 @@ export const Container = styled.header`
     gap: 1rem;
   }
 
-  .toggle span {
-    /* margin-right: 8px; */
-  }
-
   .switch {
     position: relative;
     display: block;
@@ -42,15 +38,12 @@ export const Container = styled.header`
     background: var(--dark-blue-text);
     transition: .5s;
     border: 0;
-    /* border: 3px solid white; */
-    /* box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); */
   }
 
   .slider:before {
     position: absolute;
     content: "";
     left: 3px; 
-    /* bottom: 10px; */
     top: 4px;
     background: var(--top-bg-light);
     transition: .5s;
@@ -78,7 +71,6 @@ export const Container = styled.header`
     width: 40%;
     height: 70%;
     border-radius: 50%;
-    /* transform: rotate(-45deg); */
   }
 
 `;
